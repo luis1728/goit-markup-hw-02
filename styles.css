@@ -1,141 +1,211 @@
-body{
-    font-family: 'Roboto', sans-serif;
-    color: black;
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  margin: 0px;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-    cursor: default;
+a {
+  text-decoration: none;
+  color: black;
+  cursor: default;
 }
 
-a:hover{
-    color: #2196F3;
+a:hover {
+  color: #2196f3;
 }
 
-a:active{
-    color: #5f94c0;
+a:active {
+  color: #5f94c0;
 }
 
-.services-button{
-    background-color: #2196F3;
-    color: white;
-    border: none;
-    width: 261px;
-    height: 50px;
-    border-radius: 4px;
-    cursor: pointer;
+.services-button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  width: 261px;
+  height: 50px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.services-button:hover{
-    background-color: #5f94c0;
+.services-button:hover {
+  background-color: #5f94c0;
 }
 
-.services-button:active{
-    background-color: white;
-    color: #2196F3;
-    border: solid 1px #2196F3;
+.services-button:active {
+  background-color: white;
+  color: #2196f3;
+  border: solid 1px #2196f3;
 }
 
-.logo-nav{
-    color: #2196F3;
-    font-weight: 700;
-    font-size: 26px;
+.logo-nav {
+  color: #2196f3;
+  font-weight: 700;
+  font-size: 26px;
 }
 
-.navbar{
-    font-weight: 500;
-    font-size: 14px;
+.navbar {
+  font-weight: 500;
+  font-size: 14px;
 }
 
-.main-tittle{
-    font-size: 44px;
-    font-weight: 900;
+.main-tittle {
+  font-size: 44px;
+  font-weight: 900;
 }
 
-.first-section h3{
-    font-weight: 700;
-    font-size: 14px;
+.first-section h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
 }
 
-.first-section p{
-    font-weight: 400;
-    font-size: 14px;
+.first-section p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
 
-.second-section h2{
-    font-weight: 700;
-    font-size: 36px;
+.second-section h2 {
+  font-weight: 700;
+  font-size: 36px;
 }
 
-.third-section h2{
-    font-weight: 700;
-    font-size: 36px;
+.third-section h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
-.third-section h3{
-    font-weight: 500;
-    font-size: 16px;
+.third-section h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
-.third-section p{
-    font-weight: 400;
-    font-size: 16px;
+.third-section p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
-.logo-footer{
-    font-weight: 700;
-    font-size: 26px;
-    color: #2196F3;
+.logo-footer {
+  font-weight: 700;
+  font-size: 26px;
+  color: #2196f3;
+  width: 1600px;
+  height: 252px;
+  left: 30px;
+  right: 60px;
+  top: 1628px;
 }
 
-.footer-addres{
-    font-weight: 400;
-    font-size: 14px;
+.footer-addres {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
-.footer-mail{
-    font-weight: 400;
-    font-size: 14px;
+.footer-mail {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-tel{
-    font-weight: 400;
-    font-size: 14px;
+.footer-tel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.buttons-list button{
-    width: 128px;
-    height: 38px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    border: none;
-    margin-top: 5px;
-    cursor: pointer;
+.buttons-list button {
+  width: 128px;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  margin-top: 5px;
+  cursor: pointer;
 }
 
-.buttons-list button:hover{
-    background-color: #2196F3;
-    color: white;
+.buttons-list button:hover {
+  background-color: #2196f3;
+  color: white;
 }
 
-.images-list h3{
-    font-weight: 700;
-    font-size: 18px;
-    color: black;
-    font-family: 'Roboto';
+.images-list h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
 }
 
-figure figcaption{
-    font-weight: 400;
-    font-size: 16px;
-    font-family: 'Roboto';
+.images-list p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
-.images-list li{
-    cursor: pointer;
+.images-list li {
+  cursor: pointer;
+}
+
+.navbar a {
+  cursor: pointer;
+}
+
+footer {
+  background: #2f303a;
+  width: 100%;
+  height: 252px;
+  padding: 50px;
 }
