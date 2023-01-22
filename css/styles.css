@@ -24,10 +24,10 @@ a:active {
 
 .services-button {
   background-color: #2196f3;
-  color: white;
+  color: #ffffff;
   border: none;
-  width: 261px;
-  height: 50px;
+  width: 197px;
+  height: 30px;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -46,16 +46,27 @@ a:active {
   color: #2196f3;
   font-weight: 700;
   font-size: 26px;
+  width: 145;
+  height: 31;
+}
+
+.selected {
+  color: #2196f3;
 }
 
 .navbar {
+  font: roboto;
   font-weight: 500;
   font-size: 14px;
+  width: 65;
+  height: 16;
 }
 
 .main-tittle {
   font-size: 44px;
   font-weight: 900;
+  width: 696px;
+  height: 120px;
 }
 
 .first-section h3 {
@@ -66,7 +77,6 @@ a:active {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #212121;
 }
 
@@ -77,33 +87,54 @@ a:active {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-
+  width: 270px;
+  height: 95px;
   color: #757575;
 }
 
 .second-section h2 {
-  font-weight: 700;
-  font-size: 36px;
-}
-
-.third-section h2 {
+  width: 371.15px;
+  height: 46.24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-
+  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 
+.second-section img {
+  width: 373.16px;
+  height: 323.7px;
+}
+
+.third-section h2 {
+  width: 263px;
+  height: 42px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.third-section img {
+  width: 270px;
+  height: 260px;
+}
+
 .third-section h3 {
+  width: 118px;
+  height: 19px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -114,7 +145,6 @@ a:active {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -138,6 +168,7 @@ a:active {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .footer-mail {
@@ -148,6 +179,7 @@ a:active {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
 }
 
 .footer-tel {
@@ -158,9 +190,10 @@ a:active {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
 }
 
-.buttons-list button {
+.buttons-item {
   width: 128px;
   height: 38px;
   background: #f5f4fa;
@@ -170,9 +203,18 @@ a:active {
   cursor: pointer;
 }
 
-.buttons-list button:hover {
+.buttons-item:hover {
   background-color: #2196f3;
   color: white;
+}
+.button-active {
+  width: 128px;
+  height: 38px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  margin-top: 5px;
+  cursor: pointer;
 }
 
 .images-list h3 {
@@ -180,7 +222,7 @@ a:active {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2px;
   letter-spacing: 0.06em;
   color: #212121;
 }
@@ -207,5 +249,19 @@ footer {
   background: #2f303a;
   width: 100%;
   height: 252px;
-  padding: 50px;
+}
+
+.mail-tel a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.mail-tel :hover a {
+  color: #2196f3;
+  cursor: pointer;
 }

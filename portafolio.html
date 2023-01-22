@@ -7,17 +7,15 @@
     <title>tarea1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
-      rel="stylesheet"
-    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
@@ -26,27 +24,34 @@
         <ul class="navbar">
           <li><a href="index.html">Estudio</a></li>
           <li>
-            <a href="portafolio.html" style="color: #2196f3">Portafolio</a>
+            <a href="portafolio.html" class="selected">Portafolio</a>
           </li>
           <li><a href="">Contactos</a></li>
-        </ul>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+52 55 5529 6000">+52 55 5529 6000</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
+      <section>
+        <ul class="mail-tel">
+          <li>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+52 55 5529 6000">+52 55 5529 6000</a>
+          </li>
+        </ul>
+      </section>
+
       <ul class="buttons-list">
+        <li><button type="button" class="button-active">Todo</button></li>
+
+        <li><button type="button" class="buttons-item">Sitio-Web</button></li>
         <li>
-          <button type="button" style="background-color: #2196f3; color: white">
-            Todo
-          </button>
+          <button type="button" class="buttons-item">Aplicaciones</button>
         </li>
-        <li><button type="button">Sitio-Web</button></li>
-        <li><button type="button">Aplicaciones</button></li>
-        <li><button type="button">Marketing</button></li>
+        <li><button type="button" class="buttons-item">Diseño</button></li>
+        <li><button type="button" class="buttons-item">Marketing</button></li>
       </ul>
 
       <ul class="images-list">

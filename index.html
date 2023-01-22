@@ -7,17 +7,14 @@
     <title>tarea1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
-      rel="stylesheet"
-    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
@@ -25,24 +22,31 @@
       <a href="index.html" class="logo-nav">WebStudio</a>
       <nav>
         <ul class="navbar">
-          <li><a href="index.html" style="color: #2196f3">Estudio</a></li>
+          <li><a href="index.html" class="selected">Estudio</a></li>
           <li><a href="portafolio.html">Portafolio</a></li>
           <li><a href="">Contactos</a></li>
         </ul>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+52 55 5529 6000">+52 55 5529 6000</a></li>
-        </ul>
       </nav>
     </header>
+
     <main>
       <section>
+        <ul class="mail-tel">
+          <li>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+52 55 5529 6000">+52 55 5529 6000</a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
         <h1 class="main-tittle">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <input
-          type="button"
-          value="Solicite nuestro servicio"
-          class="services-button"
-        />
+
+        <button type="button" class="services-button">
+          Solicite nuestro servicio
+        </button>
       </section>
 
       <section class="first-section">
@@ -84,25 +88,14 @@
 
         <ul>
           <li>
-            <img
-              src="./images/programer.jpg"
-              width="200px"
-              alt="cascada papel"
-              srcset=""
-            />
+            <img src="./images/programer.jpg" alt="cascada papel" srcset="" />
           </li>
           <li>
-            <img
-              src="./images/cell-laptop.jpg"
-              width="200px"
-              alt="celular mano"
-              srcset=""
-            />
+            <img src="./images/cell-laptop.jpg" alt="celular mano" srcset="" />
           </li>
           <li>
             <img
               src="./images/screen-colors.jpg"
-              width="200px"
               alt="tablet colores"
               srcset=""
             />
@@ -115,44 +108,24 @@
 
         <ul>
           <li>
-            <img
-              src="./images/beardman.jpg"
-              width="200px"
-              alt="hombre de cafe"
-              srcset=""
-            />
+            <img src="./images/beardman.jpg" alt="hombre de cafe" srcset="" />
             <h3>Andrés Cubo</h3>
             <p>Diseñador de Productos</p>
           </li>
           <li>
-            <img
-              src="./images/blonde-air.jpg"
-              width="200px"
-              alt="ella de negro"
-              srcset=""
-            />
+            <img src="./images/blonde-air.jpg" alt="ella de negro" srcset="" />
             <h3>Carla Palacios</h3>
             <p>Desarrolladora Frontend</p>
           </li>
 
           <li>
-            <img
-              src="./images/smile-man.jpg"
-              width="200px"
-              alt="el de blanco"
-              srcset=""
-            />
+            <img src="./images/smile-man.jpg" alt="el de blanco" srcset="" />
             <h3>Mario Dorado</h3>
             <p>Marketing</p>
           </li>
 
           <li>
-            <img
-              src="./images/tshirt-black.jpg"
-              width="200px"
-              alt="el de negro"
-              srcset=""
-            />
+            <img src="./images/tshirt-black.jpg" alt="el de negro" srcset="" />
             <h3>Pablo Mijangos</h3>
             <p>Diseñador IU</p>
           </li>
